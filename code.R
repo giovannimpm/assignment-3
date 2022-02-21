@@ -10,7 +10,7 @@ library(xml2)
 library(tidyverse)
 
 # Diretórios
-figura = "C:/Users/Giovanni Machado/OneDrive/Desktop/Pessoal/Mestrado/Verão/CIENCIA DE DADOS/Assignment 3"
+figura = "C:/Users/Giovanni Machado/assignment-3"
 
 # Tema para os gráficos
 tema = theme(panel.background = element_rect(fill = "white"),
@@ -65,7 +65,7 @@ ggplot(marcas, aes(x = x, y = preco))+
   labs(
     title = "Dispersão do preço dos telefones por marca",
     y = "Preço",
-    x = NULL,
+    x = "Indicador de Modelo",
     subtitle = "Dados extraídos do site da Amazon em 18/02/2022"
   ) + tema
 
